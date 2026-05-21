@@ -98,6 +98,9 @@ importers:
       '@supabase/supabase-js':
         specifier: 2.103.1
         version: 2.103.1
+      '@types/leaflet':
+        specifier: ^1.9.21
+        version: 1.9.21
       axios:
         specifier: ^1.13.1
         version: 1.13.1
@@ -125,11 +128,14 @@ importers:
       ky:
         specifier: ^1.13.0
         version: 1.13.0
+      leaflet:
+        specifier: ^1.9.4
+        version: 1.9.4
       lucide-react:
         specifier: ^0.576.0
         version: 0.576.0(react@18.3.1)
       miaoda-auth-react:
-        specifier: ^2.0.6
+        specifier: 2.0.6
         version: 2.0.6(@supabase/supabase-js@2.103.1)(react-dom@18.3.1(react@18.3.1))(react-router-dom@7.9.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)
       miaoda-sc-plugin:
         specifier: 1.0.61
@@ -1595,6 +1601,9 @@ packages:
   '@types/katex@0.16.7':
     resolution: {integrity: sha512-HMwFiRujE5PjrgwHQ25+bsLJgowjGjm5Z8FVSf0N6PwgJrwxH0QxzHYDcKsTfV3wva0vzrpqMTJS2jXPr5BMEQ==}
 
+  '@types/leaflet@1.9.21':
+    resolution: {integrity: sha512-TbAd9DaPGSnzp6QvtYngntMZgcRk+igFELwR2N99XZn7RXUdKgsXMR+28bUO0rPsWp8MIu/f47luLIQuSLYv/w==}
+
   '@types/lodash@4.17.24':
     resolution: {integrity: sha512-gIW7lQLZbue7lRSWEFql49QJJWThrTFFeIMJdp3eH4tKoxm1OvEPg02rm4wCCSHS0cL3/Fizimb35b7k8atwsQ==}
 
@@ -2514,6 +2523,9 @@ packages:
 
   layout-base@2.0.1:
     resolution: {integrity: sha512-dp3s92+uNI1hWIpPGH3jK2kxE2lMjdXdr+DH8ynZHpd6PUlH6x6cbuXnoMmiNumznqaNO31xu9e79F0uuZ0JFg==}
+
+  leaflet@1.9.4:
+    resolution: {integrity: sha512-nxS1ynzJOmOlHp+iL3FyWqK89GtNL8U8rvlMOsQdTTssxZwCXh8N2NB3GDQOL+YR3XnWyZAxwQixURb+FA74PA==}
 
   lightningcss-android-arm64@1.31.1:
     resolution: {integrity: sha512-HXJF3x8w9nQ4jbXRiNppBCqeZPIAfUo8zE/kOEGbW5NZvGc/K7nMxbhIr+YlFlHW5mpbg/YFPdbnCh1wAXCKFg==}
@@ -3596,7 +3608,7 @@ packages:
     engines: {node: '>=8'}
 
   wrap-ansi@7.0.0:
-    resolution: {integrity: sha1-Z+FFz/UQpqaYS98RUpEdadLrnkM=}
+    resolution: {integrity: sha512-YVGIj2kamLSTxw6NsZjoBxfSwsn0ycdesmc4p+Q21c5zPuZ1pl+NfxVdxPtdHvmNVOQ6XSYG4AUtyt/Fi7D16Q==}
     engines: {node: '>=10'}
 
   wrap-ansi@8.1.0:
@@ -5034,6 +5046,10 @@ snapshots:
 
   '@types/katex@0.16.7': {}
 
+  '@types/leaflet@1.9.21':
+    dependencies:
+      '@types/geojson': 7946.0.16
+
   '@types/lodash@4.17.24': {}
 
   '@types/mdast@4.0.4':
@@ -5972,6 +5988,8 @@ snapshots:
   layout-base@1.0.2: {}
 
   layout-base@2.0.1: {}
+
+  leaflet@1.9.4: {}
 
   lightningcss-android-arm64@1.31.1:
     optional: true
