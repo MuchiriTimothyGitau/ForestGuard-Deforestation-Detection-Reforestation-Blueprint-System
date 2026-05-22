@@ -1,6 +1,4 @@
-# Welcome to Your Miaoda Project
 
-## Project Info
 
 ## Project Directory
 
